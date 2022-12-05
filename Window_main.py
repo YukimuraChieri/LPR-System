@@ -47,7 +47,7 @@ class WorkThread(QThread):
         import cv2
         if self.load_flag:
             self.load_flag = False
-            img_load = cv2.imread(r"D:\python\python_work\cnsoftbei_2\test-imgs-piliang\013.JPG")
+            img_load = cv2.imread(r".\test-imgs-piliang\013.JPG")
             # 图片缩放，缩小原始数据量，加快处理速度
             imgHight, imgWidth, imgMode = img_load.shape
 
